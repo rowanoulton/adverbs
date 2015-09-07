@@ -1,0 +1,29 @@
+{
+  "name": "adverbs",
+  "version": "0.0.1",
+  "description": "Identify adverbs in a given text",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rowanoulton/adverbs.git"
+  },
+  "keywords": [
+    "prose",
+    "adverbs",
+    "english",
+    "writing",
+    "authoring"
+  ],
+  "author": "Rowan Oulton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rowanoulton/adverbs/issues"
+  },
+  "homepage": "https://github.com/rowanoulton/adverbs#readme",
+  "dependencies": {
+    "adverb-where": "0.0.7"
+  }
+}
