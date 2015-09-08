@@ -11,23 +11,23 @@ module.exports = function (text) {
   // Return if no results
   if (fromAdverbWhere.length === 0 && fromLy.length === 0) return []
 
-  // Prune non-adverbs from ends-in-ly matcher
-  for (var i in fromLy) {
-    for (var l in fromNotAdverb) {
-      if (fromLy[i].index === fromNotAdverb[l].index) {
-        delete fromLy[i]
+  fromLy = fromLy.filter(function (item) {
+    // Prune non-adverbs from ends-in-ly matcher
+    for (var i in fromNotAdverb) {
+      if (fromNotAdverb[i].index === item.index) {
+        return false
       }
     }
-  }
 
-  // Prune duplicates from adverb-where
-  for (var x in fromAdverbWhere) {
-    for (var y in fromLy) {
-      if (fromAdverbWhere[x].index === fromLy[y].index) {
-        delete fromLy[y]
+    // Prune duplicates also found by adverb-where
+    for (var l in fromAdverbWhere) {
+      if (fromAdverbWhere[l].index === item.index) {
+        return false
       }
     }
-  }
+
+    return true
+  })
 
   // Merge results
   return fromAdverbWhere.concat(fromLy)
