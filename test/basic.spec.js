@@ -8,7 +8,7 @@ var multipleAdverbsInSentence = 'This is incredibly, stupidly, badly written.'
 var wordsEndingInLy = 'An assembly will apply for Bradly the bully'
 var goodSentence = 'The good dog jumps over the bad cat.'
 
-describe('adverb-where', function () {
+describe('adverbs', function () {
 
   describe('a sentence filled with adverbs', function () {
     var results = null
