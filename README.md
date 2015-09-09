@@ -7,12 +7,12 @@ Identify adverbs in a given text. This combines a number of different methods fo
 
 ### Installation
 
-	git clone git@github.com:rowanoulton/adverbs.git adverbs
+	npm install adverbs
 
 ### Usage
 
 ```js
-var adverbs = require('./adverbs');
+var adverbs = require('adverbs');
 
 var locations = adverbs('This is an extremely bad sentence');
 // locations -> [{ index: 11, offset: 9 }]
