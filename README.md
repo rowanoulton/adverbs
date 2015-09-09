@@ -1,6 +1,8 @@
 Adverb
 -
 
+[![Build Status](https://travis-ci.org/rowanoulton/adverbs.svg?branch=master)](https://travis-ci.org/rowanoulton/adverbs)
+
 Identify adverbs in a given text. This combines a number of different methods for identifying adverbs. Namely, it leverages the excellent [adverb-where](https://github.com/duereg/adverb-where) library with some additional checks.
 
 ### Installation
