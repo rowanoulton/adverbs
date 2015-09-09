@@ -11,12 +11,16 @@
     "url": "git+https://github.com/rowanoulton/adverbs.git"
   },
   "keywords": [
-    "prose",
-    "adverbs",
     "english",
     "writing",
-    "authoring"
-  ],
+    "authoring",
+    "prose",
+    "words",
+    "adverb",
+    "adverbs",
+    "adverbly",
+    "readability"
+    ],
   "author": "Rowan Oulton",
   "license": "MIT",
   "bugs": {
