@@ -13,7 +13,7 @@ Identify adverbs in a given text. This combines a number of different methods fo
 var adverbs = require('./adverbs');
 
 var locations = adverbs('This is an extremely bad sentence');
-// locations -> [{ match: "extremely", index: 11, offset: 9 }]
+// locations -> [{ index: 11, offset: 9 }]
 ```
 
 ### Credit
