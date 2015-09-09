@@ -25,7 +25,6 @@ describe('adverb-where', function () {
   describe('multiple adverbs in the same text', function () {
     it('will be noticed', function () {
       var results = adverbs(multipleAdverbsInSentence)
-      console.log(results)
       expect(results.length).toEqual(3)
     })
   })
