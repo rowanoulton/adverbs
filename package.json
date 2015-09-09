@@ -1,6 +1,6 @@
 {
   "name": "adverbs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Identify adverbs in a given text",
   "main": "index.js",
   "directories": {
