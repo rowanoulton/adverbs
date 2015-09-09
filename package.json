@@ -29,5 +29,8 @@
   "homepage": "https://github.com/rowanoulton/adverbs#readme",
   "dependencies": {
     "adverb-where": "0.0.7"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
   }
 }
